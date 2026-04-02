@@ -1,0 +1,23 @@
+{
+  "name": "@pipeworx/mcp-flood",
+  "version": "1.0.0",
+  "description": "MCP server for river discharge and flood forecasts via Open-Meteo",
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "files": ["src"],
+  "scripts": {
+    "build": "tsc",
+    "check": "tsc --noEmit"
+  },
+  "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "flood", "open-meteo", "river-discharge"],
+  "author": "Pipeworx <hello@pipeworx.io>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pipeworx-io/mcp-flood.git"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0"
+  }
+}
