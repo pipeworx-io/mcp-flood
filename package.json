@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-flood",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Flood MCP — wraps Open-Meteo Flood API (free, no auth)",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-5a0c79a6a51ca4185ddb3e9b3a33c089ea59c71a7adc307ae7aabd73bde3f62e",
-    "sourceCommit": "76aa8f5d9b5dc2f665563030647c68e661478864"
+    "sourceHash": "v1-fe4c26283afb29be750345917ec814294315ee66418a5bc55fa7b50064fc82a6",
+    "sourceCommit": "91681e9a4a137fa0051d58e32f38c64b6334af5c"
   }
 }
