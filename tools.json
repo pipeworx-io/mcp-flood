@@ -1,0 +1,52 @@
+[
+  {
+    "name": "get_river_discharge",
+    "description": "Get daily river discharge forecast in cubic meters per second for a location. Returns discharge values with timestamps. Use to monitor water flow rates for flood risk assessment.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "latitude": {
+          "type": "number",
+          "description": "Latitude of the location in decimal degrees."
+        },
+        "longitude": {
+          "type": "number",
+          "description": "Longitude of the location in decimal degrees."
+        },
+        "forecast_days": {
+          "type": "number",
+          "description": "Number of forecast days to retrieve (1–92). Defaults to 7."
+        }
+      },
+      "required": [
+        "latitude",
+        "longitude"
+      ]
+    }
+  },
+  {
+    "name": "get_flood_forecast",
+    "description": "Get multi-day flood forecast for a location with current, mean, and peak river discharge projections. Returns discharge statistics and severity assessment. Use to evaluate flood risk and timeline.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "latitude": {
+          "type": "number",
+          "description": "Latitude of the location in decimal degrees."
+        },
+        "longitude": {
+          "type": "number",
+          "description": "Longitude of the location in decimal degrees."
+        },
+        "forecast_days": {
+          "type": "number",
+          "description": "Number of forecast days to retrieve (1–92). Defaults to 16."
+        }
+      },
+      "required": [
+        "latitude",
+        "longitude"
+      ]
+    }
+  }
+]
